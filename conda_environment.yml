@@ -16,10 +16,14 @@ dependencies:
 - nbdime
 - pycuda
 - ffmpeg
-- cuda
+- cudatoolkit-dev
 
 # Install environment:
 # $ conda env create -f conda_environment.yml
 
 # Activate environment:
 # $ conda activate kompuke_gpu
+
+# Remove environment:
+# conda remove --name kompuke_gpu --all
+
